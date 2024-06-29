@@ -20,8 +20,8 @@ import transfer from '../utils/transfer';
     <footer>
       <p align="center">
         <b>
-          点击查看<a href="https://github.com/Adpro-Team/GKD_subs_share" target="_blank"> Github </a>项目
-          本页面由<a href="https://github.com/Adpro-Team" target="_blank"> Adpro-Team </a>进行维护
+          点击查看<a href="https://github.com/adproqwq/GKD_sub_share" target="_blank"> Github </a>项目
+          本页面由<a href="https://github.com/adproqwq" target="_blank"> Adpro-Team - adproqwq </a>进行维护
         </b>
       </p>
       <p align="center">
