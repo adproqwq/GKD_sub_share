@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/share/:id",
+      "destination": "https://github.com/user-attachments/files/:id/sub.json"
+    }
+  ]
+}
