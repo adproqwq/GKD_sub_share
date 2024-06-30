@@ -35,7 +35,7 @@ export default defineComponent({
       <p align="center">
         <b>
           点击查看<a href="https://github.com/adproqwq/GKD_sub_share" target="_blank"> Github </a>项目
-          本页面由<a href="https://github.com/adproqwq" target="_blank"> Adpro-Team - adproqwq </a>进行维护
+          本页面由<a href="https://github.com/adproqwq" target="_blank"> adproqwq </a>进行维护
         </b>
       </p>
       <p align="center">
