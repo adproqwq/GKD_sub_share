@@ -1,6 +1,19 @@
-<script setup lang="ts">
+<script lang="ts">
 import { RouterLink } from 'vue-router';
 import transfer from '../utils/transfer';
+import read from '../utils/read';
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  methods: {
+    transfer(){
+      transfer()
+    },
+    async uploadFile(e: Event){
+      if((e.target as HTMLInputElement).files) await read((e.target as HTMLInputElement).files![0]);
+    }
+  },
+});
 </script>
 
 <template>
@@ -10,7 +23,7 @@ import transfer from '../utils/transfer';
       <h2>GKD规则分享</h2>
       <textarea id="gkd-sub" rows="15" cols="100" placeholder="请输入GKD规则&#10;它应为订阅"></textarea>
       <button class="button" @click="transfer">获取订阅链接</button>
-      <button class="button" @click="exportJSON">上传订阅文件（施工中）</button>
+      <input class="button" type="file" accept=".json, .json5" @change="uploadFile">上传订阅文件</input>
       <p class="message" id="link" style="display: none;"></p>
       <p class="message" id="export-message">
         本网页使用教程：
