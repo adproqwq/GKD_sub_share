@@ -11,7 +11,7 @@ import transfer from '../utils/transfer';
       <textarea id="gkd-sub" rows="15" cols="100" placeholder="请输入GKD规则&#10;它应为订阅"></textarea>
       <button class="button" @click="transfer">获取订阅链接</button>
       <button class="button" @click="exportJSON">上传订阅文件（施工中）</button>
-      <p class="message" id="link"></p>
+      <p class="message" id="link" style="display: none;"></p>
       <p class="message" id="export-message">
         本网页使用教程：
         <RouterLink to="/tutoril">点此查看使用教程（施工中）</RouterLink>
