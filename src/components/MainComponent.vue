@@ -39,8 +39,8 @@ export default defineComponent({
       </p>
       <p align="center">
         <b>
-          本页面根据 https://snoopy1866.github.io/LiTiaotiao-Custom-Rules/ 本人使用Vue重构并修改而来<br>
-          在此特别感谢<a href="https://github.com/FW27623"> FW27623 </a>
+          网页样式来自<a href="https://github.com/FW27623"> FW27623 </a><br>
+          感谢他
         </b>
       </p>
     </footer>
