@@ -10,14 +10,12 @@ export const enhanceFetch = async (
 
   if (gmOk()) {
     // with cookie
-    // export snapshot need
+    // export share link need
     return GM_fetch(input, init);
   } else if (options?.proxy) {
-    if (!u.href.startsWith('https://github.com/')) {
-      throw new Error(`proxy is not supported`);
-    }
-    const proxyUrl = new URL(`https://proxy.gkd.li`);
-    proxyUrl.searchParams.set(`proxyUrl`, u.href);
+    const proxyOrigin = 'https://proxy.adproqwq.top/';
+    const proxyParam = u.href.replace('://', '/');
+    const proxyUrl = proxyOrigin + proxyParam;
     const request = new Request(input, init);
     return fetch(proxyUrl, {
       method: request.method,
