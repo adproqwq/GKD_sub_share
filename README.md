@@ -2,6 +2,10 @@
 
 将你的订阅通过本工具分享出去！
 
+## 常见问题
+
+1. 点击【获取订阅链接】没反应怎么办？需要安装这个[油猴脚本](https://github.com/gkd-kit/network-extension)才能正常使用
+
 ## 鸣谢
 
 1. [@lisonge](https://github.com/lisonge)
