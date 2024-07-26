@@ -3,6 +3,10 @@
     {
       "source": "/share/:id",
       "destination": "https://github.com/user-attachments/files/:id/sub.json"
+    },
+    {
+      "source": "/jump/:target",
+      "destination": ":target"
     }
   ]
 }
