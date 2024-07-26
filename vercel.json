@@ -5,7 +5,7 @@
       "destination": "https://github.com/user-attachments/files/:id/sub.json"
     },
     {
-      "source": "/jump/:target",
+      "source": "/?jump=:target",
       "destination": ":target"
     }
   ]
