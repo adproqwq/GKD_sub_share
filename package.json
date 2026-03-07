@@ -10,15 +10,15 @@
   },
   "dependencies": {
     "json5": "^2.2.3",
-    "user-attachments": "^1.1.2",
-    "vite-plugin-monkey": "^4.0.4",
-    "vue": "^3.4.31",
-    "vue-router": "^4.4.0"
+    "user-attachments": "^2.0.2",
+    "vite-plugin-monkey": "^7.1.9",
+    "vue": "^3.5.29",
+    "vue-router": "^5.0.3"
   },
   "devDependencies": {
-    "@farmfe/cli": "^1.0.2",
-    "@farmfe/core": "^1.2.8",
-    "@vitejs/plugin-vue": "^5.0.5",
-    "core-js": "^3.37.1"
+    "@farmfe/cli": "^1.0.5",
+    "@farmfe/core": "^1.7.11",
+    "@vitejs/plugin-vue": "^6.0.4",
+    "core-js": "^3.48.0"
   }
 }
